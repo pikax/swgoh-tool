@@ -11,6 +11,6 @@ import * as json from './data.json';
 
 
 ReactDOM.render(
-  React.createElement(App, {data: json}),
+  React.createElement(App, {data: [{name:'"ddddd'},...json]}),
   document.getElementById("app")
 );

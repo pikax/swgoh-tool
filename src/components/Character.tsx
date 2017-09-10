@@ -9,7 +9,7 @@ interface ICharacter{
 export class Character extends React.PureComponent<ICharacter,{}>{
 
   render(){
-    return <div>{this.props.name} : {this.props.stars}</div>
+    return <div>{this.props.name} : {this.props.stars}  - 3 </div>
   }
 }
 

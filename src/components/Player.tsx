@@ -16,8 +16,8 @@ export class Player extends React.PureComponent<IPlayerProps>{
   render(){
     const {name, toons} = this.props;
 
-    return <div>
-      <h1>{name}</h1>
+      return <div>
+      <h1>{name} s ss</h1>
 
       {toons.map(this.renderToon)}
     </div>
